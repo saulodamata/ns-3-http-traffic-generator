@@ -8,6 +8,6 @@ It is also important to say that this module was developed to work with ns-3.13 
 
 To run this application, you also have to add the HTTP Header to your NS-3 code.
 
-The files were placed where they should be in your ns-3 instalation.
+The files were placed where they should be in your ns-3 instalation, i.e., in the directories /src/applications and /src/internet.
 
-Remember to add the entries for all these files to the suitable waf script (wscript).
+The wscript files were included as examples. Search for the http entries in the wscript examples and make the insertions in your wscript files. If you just replace the wscript files you can mess other modules in your ns-3 instalation.
